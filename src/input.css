@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+   
+    .hide-menu{
+        @apply translate-x-[-200px] 
+    }
+    .body{
+        @apply fixed
+    }
+  
+}

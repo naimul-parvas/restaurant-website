@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+
+</head>
+<body id="body" class="">
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-3   justify-between md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 ">
+            
+            <span><img src="https://framerusercontent.com/images/7FG2B6szZBl5tuQ2uHwoXlIswHE.svg" alt=""></span>
+         
+          </a>
+ 
+
+
+
+
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+
+
+          <nav class=" hidden md:flex gap-[50px] cursor-pointer animate__animated animate__fadeInUp">
+            <a class="text-pink-300">home</a>
+            <a class="hover:text-pink-300">about</a>
+            <a class="hover:text-pink-300">menu</a>
+            <a class="hover:text-pink-300 ">contact</a>
+          </nav>
+         <div class="btn-grp">
+          <button class="animate__animated animate__fadeInUp  hidden md:inline-flex items-center bg-teal-600 text-[#fff]  font-bold text-[20px] py-[10px] px-[25px] rounded-[10px] focus:outline-none hover:bg-gray-700  cursor-pointer text-base duration-500 mt-4 md:mt-0">SHOP
+            
+          </button>
+          <div class=" bg-gray-100 ">
+            <div class="relative md:hidden float-left">
+                <nav x-data="{ open: false }">
+                    <button id="hamberger" id="close" class="w-10 h-10 focus:outline-none bg-teal-600 rounded" @click="open = !open">
+                        <div class="block pb-[4.5px] w-5 absolute  left-[45%] top-1/2   transform  -translate-x-1/2 -translate-y-1/2">
+                            <span  class="block absolute h-0.5 w-6 text-white bg-current transform transition duration-500 ease-in-out" :class="{'rotate-45': open,' -translate-y-1.5': !open }"></span>
+                            <span  class="block absolute  h-0.5 w-4 text-white bg-current   transform transition duration-500 ease-in-out" :class="{'opacity-0': open } "></span>
+                            <span  class="block absolute  h-0.5 w-6 text-white bg-current transform  transition duration-500 ease-in-out" :class="{'-rotate-45': open, ' translate-y-1.5': !open}"></span>
+                        </div>
+                    </button>
+                </nav>
+            </div>
+        </div>
+        
+         </div>
+       
+          </div>
+       
+        </div>
+        
+       
+      
+      </header>
+      <div  class="  h-full z-40 " >
+        <div id="ham-menu"  class=" hide-menu mt-[78px]  fixed flex p-5 pt-[150px] duration-500   flex-col top-0 z-10 w-[200px] h-full gap-10 items-center font-bold text-[20px] text-white  bg-[#3fb9af]" >
+          <a href="">home </a>
+          <a href="">about</a>
+          <a href="">service</a>
+          <a href="">contact</a>
+          <a href="">shop now</a>
+        </div>
+      </div>
+      <main>
+
+        <script src="app.js"></script>
+
+<section class="relative">
+
+
+  
+    <img class="h-[700px] w-full object-none " src="https://framerusercontent.com/images/SnitTLhsCOdu3Ijt0B2L8qrXGCc.jpg?scale-down-to=4096" alt="">
+  
+  <div class="absolute w-full text-center top-[20%]  ">
+
+  <div class="animate__animated animate__fadeInUp w-full flex justify-center absolute top-[-120px] "  > <img class="w-[110px] border-[#573f3b]  border-2 border-solid opacity-80 bg-gray-100 ] px-[5px] py-[5px] rounded-full "  src="fast-food.png" alt=""></div>
+    <h1 class="text-[#573f3b] text-[45px] font-bold leading-[50px] pl-[40px] pr-[40px] animate__animated animate__fadeInUp" >Your Ultimate <br>
+      Drink & Smoothie Haven</h1>
+      <p class="text-[#20120f] p-[20px] animate__animated animate__fadeInUp">Explore Flavors with Our Premium Drink <br>& Smoothie Every Sip Tells a Story.</p>
+  </div>
+  <div class="absolute w-full flex justify-center top-[60%] pt-70px] md:top-[50%]  "> <button class="animate__animated animate__fadeInUp  inline-flex items-center bg-teal-600 text-[#fff] font-bold text-[20px]  py-[14px] px-[35px] rounded-[8px]  focus:outline-none hover:bg-transparent cursor-pointer hover:translate-y-[10px] hover:border-teal-600 border-solid hover:border-2   text-base mt-4  md:mt-0 duration-500 hover:text-teal-600  ">VIEW MORE</button> </div>
+
+
+</section>
+
+
+<section class="card-section">
+
+  <div class="card-content text-center animate__animated animate__fadeInUp">
+    <h1 class="mt-[80px] font-bold text-[60px] text-[#573e3e] leading-[60px] a"  >Natural Smoothies</h1>
+
+    <p class="mt-4 text-[25px] text-[#e7b9b9]  font-thin ">Drink natural to be stronger</p>
+  </div>
+
+
+
+
+
+  <div class="    card-img p-[20px] md:flex md:flex-wrap-reverse justify-between md:pl-[60px] md:pr-[60px]">
+    <div class="text-center animate__animated animate__fadeInUp ">
+      <div class=" w-full h-[300px]  overflow-hidden  object-cover-cover bg-no-repeat">
+        <img
+          src="https://framerusercontent.com/images/9I5ihaE10XlVDVOrNKmz8PbPPFk.jpg"
+          class="w-full transition rounded-none  duration-300  hover:scale-110 "
+          alt="Louvre" />
+      </div>
+
+
+      <p class="mt-[20px] text-[20px] text-[#574040] mb-3 ">Natural Ice Juice</p>
+
+      <h2 class="text-[20px] font-bold text-teal-600 font-serif mb-[35px] ">$9.00</h2>
+    </div>
+
+    <div class="text-center">
+    <div class=" w-full h-[300px]  overflow-hidden  bg-cover bg-no-repeat">
+      <img class="w-full transition rounded-none  duration-300  hover:scale-110" 
+      src="https://framerusercontent.com/images/7SwREin6eBGtDeX3RcGlkVdELo.jpg" alt="">
+    </div>
+
+      <p class="mt-[20px] text-[20px] text-[#574040] mb-3">Fruits Smoothie</p>
+
+      <h2 class="text-[20px] font-bold text-teal-600 font-serif mb-[35px]">$11.00</h2>
+    </div>
+
+
+    <div class="text-center">
+    <div class=" w-full h-[300px]  overflow-hidden  bg-cover bg-no-repeat">
+      <img class="w-full transition rounded-none  duration-300  hover:scale-110" 
+       src="https://framerusercontent.com/images/elSQknFBx7qYRRlxM7Iky2hmAc.jpg" alt="">
+
+      </div>
+      <p class="mt-[20px] text-[20px] text-[#574040] mb-3">Natural Pomegranate Juice</p>
+
+      <h2 class="text-[20px] font-bold text-teal-600 font-serif mb-[35px]">$10.00</h2>
+    </div>
+
+
+    <div class="text-center">
+    <div class=" w-full h-[300px]  overflow-hidden object-top bg-no-repeat">
+      <img class="w-full transition rounded-none  duration-300  hover:scale-110" 
+      src="https://framerusercontent.com/images/qcA5pwDWJJ7NBvMENOEIHKTGhZM.jpg" alt="">
+    </div>
+      
+      <p class="mt-[20px] text-[20px] text-[#574040] mb-3">Ice Smoothie</p>
+
+      <h2 class="text-[20px] font-bold text-teal-600 font-serif mb-[35px]">$7.00</h2>
+    </div>
+
+
+    <div class="text-center hidden md:block">
+    <div class=" w-full h-[300px]  overflow-hidden object-top bg-no-repeat">
+      <img class="w-full transition rounded-none  duration-300  hover:scale-110" 
+      src="https://framerusercontent.com/images/xBZrYBnj6zC2SPaRaqaRInWO0k.jpg" alt="">
+    </div>
+      
+      <p class="mt-[20px] text-[20px] text-[#574040] mb-3">Ice Smoothie</p>
+
+      <h2 class="text-[20px] font-bold text-teal-600 font-serif mb-[35px]">$7.00</h2>
+    </div>
+
+
+    <div class="text-center hidden md:block">
+    <div class=" w-full h-[300px]  overflow-hidden object-top bg-no-repeat">
+      <img class="w-full transition rounded-none  duration-300  hover:scale-110" 
+      src="https://framerusercontent.com/images/H9qlit9qmKUklRyV4zkZ04Vouxk.jpg" alt="">
+    </div>
+      
+      <p class="mt-[20px] text-[20px] text-[#574040] mb-3">Ice Smoothie</p>
+
+      <h2 class="text-[20px] font-bold text-teal-600 font-serif mb-[35px]">$7.00</h2>
+    </div>
+
+
+    <div class="text-center hidden lg:block">
+    <div class=" w-full h-[300px]  overflow-hidden object-top bg-no-repeat">
+      <img class="w-full transition rounded-none  duration-300  hover:scale-110" 
+      src="https://framerusercontent.com/images/e9JKLTYrvLy8OCrRRty34ptiCk4.jpg" alt="">
+    </div>
+      
+      <p class="mt-[20px] text-[20px] text-[#574040] mb-3">Ice Smoothie</p>
+
+      <h2 class="text-[20px] font-bold text-teal-600 font-serif mb-[35px]">$7.00</h2>
+    </div>
+
+
+
+
+    <div class="text-center hidden lg:block">
+    <div class=" w-full h-[300px]  overflow-hidden object-top bg-no-repeat">
+      <img class="w-full transition rounded-none  duration-300  hover:scale-110" 
+      src="https://framerusercontent.com/images/J4A4brMMwlUxZ8yVhk1a2UDnTbg.jpg" alt="">
+    </div>
+      
+      <p class="mt-[20px] text-[20px] text-[#574040] mb-3">Ice Smoothie</p>
+
+      <h2 class="text-[20px] font-bold text-teal-600 font-serif mb-[35px]">$7.00</h2>
+    </div>
+  
+  </div>
+    
+
+
+  <div class=" flex justify-center mb-[50px]  "> <button class="inline-flex items-center bg-teal-600 text-[#fff] font-bold text-[20px]  py-[12px] px-[25px] rounded-[8px]  focus:outline-none hover:bg-transparent cursor-pointer hover:translate-y-[5px] hover:border-teal-600 border-solid hover:border-2  text-base md:mt-0 duration-500 hover:text-teal-600  ">VIEW MORE</button> </div>
+
+
+
+ 
+
+   
+
+
+    
+
+</section >
+
+
+
+
+<section class="manu bg-[#F5A69F] ">
+
+  <div class="menu">
+    <div class="relative">
+      <div class="flex justify-center pt-[80px] w-fit mx-auto ">
+        <img class=""
+      
+      src="Screenshot_12.png" alt="">
+      </div>
+      <div class="flex justify-end w-fit absolute top-3 right-2">
+        <img class=""
+      
+      src="bananat_1.png" alt="">
+      </div>
+      <div class="flex justify-start w-fit absolute top-3">
+        <img class=""
+      
+      src="bee_1.png" alt="">
+      </div>
+    <h1 class=" text-[50px] text-center text-white font-bold">Our Menu</h1>
+
+      <p class="pb-[50px] text-center text-[#DFEEB6] text-[30px] font-thin ">Tasty and Natural </p>
+    </div>
+  </div>
+
+
+
+<!-- our menu section -->
+
+
+ <div class="lg:flex lg:pl-[100px] lg:pr-[100px]">
+  <div class="four">
+    <div class="flex justify-between gap-4 items-center p-[15px]">
+      <div class="img ">
+        <img class=" w-[400px] md:w-[300px]  rounded-full"
+         src="https://framerusercontent.com/images/3gMiAsDxrh7n5P6qvMSo32poXA.png" alt="">
+      </div>
+  
+  
+      <div>
+        <h1 class="text-[#fff] text-[25px] w-[70%] leading-6 mb-2 ">Tasty Orange Smoothie</h1>
+        <p class="text-[#f3e7e7] text-[15px] leading-5 ">Savor the Tasty Orange Smoothie, a citrusy symphony featuring ripe oranges, velvety yogurt, a drizzle of honey, and a refreshing splash of milk</p>
+      </div>
+      <div>
+        <h1 class="text-[#dfeeb6] text-[30px] font-bold">$5.5</h1>
+      </div>
+    </div>
+  
+  
+    <div class="flex justify-between gap-4 items-center p-[15px]">
+      <div class="img">
+        <img class=" w-[400px] lg:w-[300px]  rounded-full"
+         src="https://framerusercontent.com/images/MzD5G64GIfokqFk26yMkIsyVI54.jpg" alt="">
+      </div>
+      <div>
+        <h1 class="text-[#fff]  text-[25px] leading-6 mb-2">
+          Tasty Kiwi Smoothie</h1>
+        <p class="text-[#f3e7e7] text-[15px] leading-5">Savor the Tasty Orange Smoothie, a citrusy symphony featuring ripe oranges, velvety yogurt, a drizzle of honey, and a refreshing splash of milk</p>
+      </div>
+  
+  
+      <div>
+        <h1 class="text-[#dfeeb6] text-[30px] font-bold">$5.5</h1>
+      </div>
+    </div>
+    <div class="flex justify-between gap-4 items-center p-[15px]">
+      <div class="img">
+        <img class="w-[400px] lg:w-[300px]  rounded-full"
+         src="https://framerusercontent.com/images/qZf8bJTkhGJUzKDPVvlCRgV9nI.jpg" alt="">
+      </div>
+   
+  
+      <div>
+        <h1 class="text-[#fff] text-[25px] w-full  leading-6 mb-2">Tasty Cherry Smoothie</h1>
+        <p class="text-[#f3e7e7] text-[15px] leading-5">Savor the Tasty Orange Smoothie, a citrusy symphony featuring ripe oranges, velvety yogurt, a drizzle of honey, and a refreshing splash of milk</p>
+      </div>
+      <div>
+        <h1 class="text-[#dfeeb6] text-[30px] font-bold">$5.5</h1>
+      </div>
+    </div>
+    <div class="flex justify-between gap-4 items-center p-[15px]">
+      <div class="img ">
+        <img class="w-[400px] lg:w-[300px]  rounded-full"
+         src="https://framerusercontent.com/images/qUqpXvJLzIk8Jz2LxNlcSrOfoI.jpg" alt="">
+      </div>
+      <div>
+        <h1 class="text-[#fff]  text-[25px] w-[70%] leading-6 mb-2">Tasty Pianaple Smoothie</h1>
+        <p class="text-[#f3e7e7] text-[15px] leading-5">Savor the Tasty Orange Smoothie, a citrusy symphony featuring ripe oranges, velvety yogurt, a drizzle of honey, and a refreshing splash of milk</p>
+      </div>
+      <div>
+        <h1 class="text-[#dfeeb6] text-[30px] font-bold">$3.5</h1>
+      </div>
+  
+  
+    </div>
+  </div>
+  
+    <div class="four">
+      
+      <div class="flex justify-between gap-4 items-center p-[15px]">
+        <div class="img">
+          <img class="w-[400px] lg:w-[300px]  rounded-full"
+           src="https://framerusercontent.com/images/3pMbSz8fnA3hXhogzxRFMm2m2oM.jpg" alt="">
+        </div>
+        <div>
+          <h1 class="text-[#fff]  text-[25px] leading-6 mb-2">Sparkling Lemon Soda</h1>
+          <p class="text-[#f3e7e7] text-[15px] leading-5">Savor the Tasty Orange Smoothie, a citrusy symphony featuring ripe oranges, velvety yogurt, a drizzle of honey, and a refreshing splash of milk</p>
+        </div>
+        <div>
+          <h1 class="text-[#dfeeb6] text-[30px] font-bold">$7.5</h1>
+        </div>
+    
+    
+      </div>
+      <div class="flex justify-between gap-4 items-center p-[15px]">
+        <div class="img">
+          <img class="w-[400px] lg:w-[300px]  rounded-full"
+           src="https://framerusercontent.com/images/YXeXQzw2nsWp9OXBGKojvcpPdqo.jpg" alt="">
+        </div>
+        <div>
+          <h1 class="text-[#fff]  text-[25px] leading-6 mb-2">
+            Green Mix Smoothie</h1>
+          <p class="text-[#f3e7e7] text-[15px] leading-5">Savor the Tasty Orange Smoothie, a citrusy symphony featuring ripe oranges, velvety yogurt, a drizzle of honey, and a refreshing splash of milk</p>
+        </div>
+        <div>
+          <h1 class="text-[#dfeeb6] text-[30px] font-bold">$7.2</h1>
+        </div>
+    
+    
+      </div>
+      <div class="flex justify-between gap-4 items-center p-[15px]">
+        <div class="img">
+          <img class="w-[400px] lg:w-[300px]  rounded-full"
+           src="https://framerusercontent.com/images/evLV33E67c5NIauWInDYnGAQ8.jpg" alt="">
+        </div>
+        <div>
+          <h1 class="text-[#fff]  text-[25px]  leading-6 mb-2">Black Curent Smoothie</h1>
+          <p class="text-[#f3e7e7] text-[15px] leading-5">Savor the Tasty Orange Smoothie, a citrusy symphony featuring ripe oranges, velvety yogurt, a drizzle of honey, and a refreshing splash of milk</p>
+        </div>
+        <div>
+          <h1 class="text-[#dfeeb6] text-[30px] font-bold">$4.2</h1>
+        </div>
+      </div>
+    
+    
+    
+      <div class="flex justify-between gap-4 items-center p-[15px]">
+        <div class="img">
+          <img class="w-[400px] lg:w-[300px]   rounded-full"
+           src="https://framerusercontent.com/images/qUqpXvJLzIk8Jz2LxNlcSrOfoI.jpg" alt="">
+        </div>
+        <div>
+          <h1 class="text-[#fff] text-[25px] leading-6 mb-2">Mix Fruite Smoothie</h1>
+          <p class="text-[#f3e7e7] text-[15px] leading-5">Savor the Tasty Orange Smoothie, a citrusy symphony featuring ripe oranges, velvety yogurt, a drizzle of honey, and a refreshing splash of milk</p>
+        </div>
+        <div>
+          <h1 class="text-[#dfeeb6] text-[30px] font-bold">$4.8</h1>
+        </div>
+      </div>
+    </div>
+  
+ </div>
+</section>
+
+
+<section class="testemonial mb-[80px]" >
+  
+  <div>
+
+  <div class="test-head  ">
+    <div class="flex justify-center mt-[80px]"><img class="" src="Screenshot_1.png" alt=""></div>
+    <h1 class="text-center text-[60px] text-[#463737] font-bold">Testimonials</h1>
+    <p class="text-center  text-[25px] leading-5 font-thin text-[#ffc0c0] ">What other say about us</p>
+
+  </div>
+  <div class="flex justify-around">
+
+    <div class="text-center  ">
+      <h1 class="text-[25px] mt-10 text-[rgb(116,83,83)] font-bold">Herry Jhonsen</h1>
+      <p class="w-[300px]  mx-auto text-[#DDDDDD] mb-3">Choosing PureBlend was a game-changer for our e-commerce site. A must-have for businesses seeking a modern and functional online presence.</p>
+      <span class=" text-[20px]  leading-5 font-thin text-[#ffc0c0] ">Netherlands</span>
+     </div>
+    <div class="text-center hidden lg:block ">
+      <h1 class="text-[25px] mt-10 text-[rgb(116,83,83)] font-bold">Herry Jhonsen</h1>
+      <p class="w-[300px]  mx-auto text-[#DDDDDD] mb-3">Choosing PureBlend was a game-changer for our e-commerce site. A must-have for businesses seeking a modern and functional online presence.</p>
+      <span class=" text-[20px]  leading-5 font-thin text-[#ffc0c0] ">Netherlands</span>
+     </div>
+    <div class="text-center hidden lg:block ">
+      <h1 class="text-[25px] mt-10 text-[rgb(116,83,83)] font-bold">Herry Jhonsen</h1>
+      <p class="w-[300px]  mx-auto text-[#DDDDDD] mb-3">Choosing PureBlend was a game-changer for our e-commerce site. A must-have for businesses seeking a modern and functional online presence.</p>
+      <span class=" text-[20px]  leading-5 font-thin text-[#ffc0c0]  ">Netherlands</span>
+     </div>
+  </div>
+</div>
+</section>
+
+
+<section class=" subscribe bg-[#DFEEB6] md:flex items-center gap-10 ">
+
+  <div class="flex justify-center  md:pl-[70px]"><img class="w-[350px]  pt-[60px] md: pb-[50px]"  src="https://framerusercontent.com/images/vlMcV5ui8nGvAYvU7eABXedh9AA.png?scale-down-to=512" alt=""></div>
+
+<div class="text-center"><h1 class="text-[50px]  font-bold text-[#4b4141]">Subscribe here</h1>
+  <p class="pb-[30px] font-thin text-[#88dd52]  text-[20px]">to our news and sale promotions</p>
+  <input class="p-4 border-green-300 border-2  w-[350px] outline-none rounded-lg md:w-[500px] md:mr-4" type="email" name="" placeholder="your email" id=""> <button class="p-4 bg-green-400 inline mb-[50px] text-white rounded-md ml-2 md:mt-3">subscribe</button>
+</div>
+
+</section>
+
+
+
+      </main>
+      <footer class="bg-[#5A5058]">
+        <div class="hidden"><img class="h-[100vh]  " src="https://framerusercontent.com/images/WAQmYLYv1jAXs2UpHb4FGKvWbg.jpg" alt=""></div>
+
+
+        <div class="p-4 pt-[50px] lg:flex lg:justify-around gap-[50px]">
+
+
+          <div class="md:flex justify-between md:p-[50px] lg:flex lg:justify-between gap-[150px]">
+            <div class="font-semibold">
+            <h1 class="text-[25px] font-bold text-white">Opening Hours</h1>
+            <p class="text-white mt-3">Monday / <span class="text-[#DAE8B2]">9:00 – 20:00</span> </p>
+            <p class="text-white">thuesday / <span class="text-[#DAE8B2]">9:00 – 20:00</span> </p>
+            <p class="text-white"> wednesday / <span class="text-[#DAE8B2]">9:00 – 20:00</span> </p>
+            <p class="text-white">thurstday / <span class="text-[#DAE8B2]">9:00 – 20:00</span> </p>
+            <p class="text-white">friday / <span class="text-[#DAE8B2]">9:00 – 20:00</span> </p>
+            <p class="text-white">saturday / <span class="text-[#DAE8B2]">9:00 – 20:00</span> </p>
+            <p class="text-white mb-3">sunday / <span class="text-[#DAE8B2]">closed</span> </p>
+            
+           
+          </div>
+
+          <div>
+            <h1 class="text-[25px] text-white font-semibold">Pages</h1>
+            <p class="text-white font-semibold mt-2">Home</p>
+            <p class="text-white font-semibold mt-2">about</p>
+            <p class="text-white font-semibold mt-2">shop</p>
+            <p class="text-white font-semibold mt-2">menu</p>
+            <p class="text-white mb-[15px] font-semibold mt-2">contact</p>
+          </div>
+
+          <div class="font-semibold"> 
+            <h1 class="text-[25px] mb-3 font-bold text-white">Contact Info</h1>
+            <p class="text-white ">☎+38 899 4320 32 </p>
+            <p class="text-white mt-3">📩info@pureblend.com</p>
+            <p class="text-white mt-3 mb-[20px]">France, Paris, Lille de la Cite 1p</p>
+
+          </div>
+</div>
+          <div>
+            <h1 class="text-white font-bold text-[25px] mb-3">Photo Galary</h1>
+            <div class=" flex flex-wrap gap-3 lg:grid grid-cols-3 ">
+              <img class="w-[100px] rounded-[10px] " src="https://framerusercontent.com/images/iHmSIrc5n5eN8tmckUjmn9YS8.png" alt="">
+              <img class="w-[100px] rounded-[10px] " src="https://framerusercontent.com/images/oZKr6Gny8666CQpqUjgdoKdun8.png" alt="">
+              <img class="w-[100px] rounded-[10px] " src="https://framerusercontent.com/images/4APyjqKo0GOn4V6Zsey3Nt4zO0Q.png" alt="">
+              <img class="w-[100px] rounded-[10px] " src="https://framerusercontent.com/images/n3RpPhWtyMMsKqz9cKEoqw7H3xA.png" alt="">
+              <img class="w-[100px] rounded-[10px] " src="https://framerusercontent.com/images/7r7sMxZk2bSfTj1wCxcqbjp5gc.png" alt="">
+              <img class="w-[100px] rounded-[10px] " src="https://framerusercontent.com/images/Tya0fXZXeIzR2gu50MfOMXBRmiU.png" alt="">
+            </div>
+          </div>
+        </div>
+        <p class="text-center mt-5 font-semibold text-white  pb-[50px]">Copyrights 2024. naimul parvas</p>
+      </footer>
+</body>
+<script>
+  AOS.init();
+</script>
+</html>
